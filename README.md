@@ -1,84 +1,70 @@
-# Contact-manager-app-
- Contact manager app is most widely used app, as this app lets the user to sign in and save the contact. Total number contacts are also visible to the user, after the contact save process the user can sign out.
-<h1 align="center">
-    Contacts Application
-</h1>
+# Getting Started with Create React App
 
-<a id="tech-stack"></a>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## ⚙️ Tech Stack
+## Available Scripts
 
-- Express.js
-- Reactjs
-- MongoDB
+In the project directory, you can run:
 
-<a id="setup-run"></a>
+### `npm start`
 
-## 🔨 Setup and Run
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<a id="setup-repo"></a>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Setup local repo
+### `npm test`
 
-Let's setup the server on your local machine.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 0. Prerequisites
+### `npm run build`
 
-- Make sure you have [Node.js](http://nodejs.org) installed on your machine.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 1. Fork repo
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Fork this repo to your GitHub account
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### 2. Clone repo
+### `npm run eject`
 
-Clone the forked repo to your local machine
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```bash
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/Contacts-App.git
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Navigate to project directory using Command Prompt
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```bash
-cd Contacts-App
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### 3. Install Dependencies
+## Learn More
 
-Make sure you are in the Contacts-App directory and then run the following commands:-
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```bash
-npm install
-cd client
-npm install
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### 4. 📌 Setting up .env file :
+### Code Splitting
 
-1. Create a new file `.env` in the root directory.
-2. Copy all the default content from the `sample.env` file to the `.env` file.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-<a id="setup-database"></a>
+### Analyzing the Bundle Size
 
-### 5. 📡 Setup database
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- Follow this blog to setup the Database and get the MONGO_URI:- https://www.freecodecamp.org/news/get-started-with-mongodb-atlas/
-- Now you have the MONGO_URI. Replace it with `PASTE_YOUR_MONGO_URI` in `.env` file.
+### Making a Progressive Web App
 
-<a id="run-app"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### 6. Running the app
+### Advanced Configuration
 
-- Navigate to Contacts-App directory in the command prompt and enter the following command.
-  ```bash
-  npm start
-  ```
-  The server has now started.
-- Open a new command prompt and navigate to Contacts-App directory and enter the following commands:-
-  ```bash
-  cd client
-  npm start
-  ```
-  The client has started running as well.
-- In the browser enter http://localhost:3000/
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
